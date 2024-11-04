@@ -21,7 +21,7 @@ class VideoController extends Controller
             ['title' => 'EJA Médio 01', 'link' => 'https://realmsweb.ip.tv/iframe/seduc-amejamedio1'],
             ['title' => 'EJA Médio 02', 'link' => 'https://realmsweb.ip.tv/iframe/seduc-amejamedio2'],
             ['title' => 'EJA Médio 04', 'link' => 'https://realmsweb.ip.tv/iframe/seduc-amejamedio4'],
-            ['title' => 'EJA Médio 05', 'link' => 'https://realmsweb.ip.tv/iframe/seduc-amejamedio1'],
+            ['title' => 'EJA Médio 05', 'link' => 'https://realmsweb.ip.tv/iframe/seduc-amejamedio5'],
         ];
 
         return view('videos', compact('videosFundamental', 'videosMedio'));
